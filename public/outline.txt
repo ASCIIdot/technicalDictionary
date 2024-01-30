@@ -1,0 +1,63 @@
+██╗    ██╗███████╗██╗      ██████╗ ██████╗ ███╗   ███╗███████╗
+██║    ██║██╔════╝██║     ██╔════╝██╔═══██╗████╗ ████║██╔════╝
+██║ █╗ ██║█████╗  ██║     ██║     ██║   ██║██╔████╔██║█████╗  
+██║███╗██║██╔══╝  ██║     ██║     ██║   ██║██║╚██╔╝██║██╔══╝  
+╚███╔███╔╝███████╗███████╗╚██████╗╚██████╔╝██║ ╚═╝ ██║███████╗
+ ╚══╝╚══╝ ╚══════╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝
+ -------------------------------------------------------------
+ Credit 4 title> https://www.asciiart.eu/text-to-ascii-art
+ -------------------------------------------------------------
+ Requirements
+ | 1. Page to add words and their definitions, preferably in markdown. This saves them to some sort of DATABASE, which can then be searched.
+ | 2. Tag/folder system; allows you to group words by their topic or use
+ | 3. Page to search through words and filter by tag/folder
+ | 4. Allow multiple definitions with different tags
+ | x. Randomly generated word of the day
+
+
+Planning
+ | A.
+    This web app is DYNAMIC. Possibly using flask or django.
+    Site map:
+
+    [Index.html; template]
+    [List of recent words, search bar, buttons to other pages]
+    [Recent words can be CLICKED ON to access Definition.html]
+    [Navbar at top with a + (NewTerm.html) and magnifying glass (Search.html)]
+
+    [Definition.html; template]
+    [Displays different contents by the word. The word is identified via url/word, and will find the relevent entry to populate OR display 404]
+
+    [FileNotFound.html]
+    [{word} does not exist- make entry?]
+    [Links to NewTerm.html]
+
+    [NewTerm.html]
+    [Form to create a new word entry. Later on it will require peer review to be added!]
+    [States: TERM SUCESSFULLY ADDED-> redirects to index.html; SOMETHING WENT WRONG-> stays on page, appears as a toast;]
+ 
+    [Search.html; template]
+    [dedicated search page. Icon/Site name in corner returns you to index]
+
+ | B.
+    Database using PostgreSQL for the sake of university practice
+    Data needed:
+
+    Term - string (varchar), 255 lim; primary key?
+    Tags - array of strings
+    Definitions - array of definitions; each definition is raw html?
+    Author - varchar 255 lim
+
+    When making a new term, it could have the same 'Term'/primary key, in which the definition and tags get added onto it. Or maybe names should be duplicated
+
+ |C.
+    Visual notes
+    I want the folder/tag system to look like oh-my-posh terminal
+    Light and dark mode
+    visually rather simple and clean ui 
+    LaTeX and markdown support
+
+
+
+
+ --> app by Machietal
