@@ -1,12 +1,4 @@
-██╗    ██╗███████╗██╗      ██████╗ ██████╗ ███╗   ███╗███████╗
-██║    ██║██╔════╝██║     ██╔════╝██╔═══██╗████╗ ████║██╔════╝
-██║ █╗ ██║█████╗  ██║     ██║     ██║   ██║██╔████╔██║█████╗  
-██║███╗██║██╔══╝  ██║     ██║     ██║   ██║██║╚██╔╝██║██╔══╝  
-╚███╔███╔╝███████╗███████╗╚██████╗╚██████╔╝██║ ╚═╝ ██║███████╗
- ╚══╝╚══╝ ╚══════╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝
- -------------------------------------------------------------
- Credit 4 title> https://www.asciiart.eu/text-to-ascii-art
- -------------------------------------------------------------
+
  Requirements
  | 1. Page to add words and their definitions, preferably in markdown. This saves them to some sort of DATABASE, which can then be searched.
  | 2. Tag/folder system; allows you to group words by their topic or use
@@ -56,8 +48,6 @@ Planning
     Light and dark mode
     visually rather simple and clean ui 
     LaTeX and markdown support
-
-
 
 
  --> app by Machietal

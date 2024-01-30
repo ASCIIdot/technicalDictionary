@@ -1,0 +1,37 @@
+
+Term [N / Natural numbers]
+Tags [maths/set theory/number]
+Definition(s)[
+    "
+    The set of natural numbers. N={1,2,3,4,5,6,7,8,9....}. May or may not include 0, depending on who you are talking to.
+    "
+]
+
+Term [Z / Integer numbers]
+Tags [maths/set theory/number]
+Definition(s)[
+    "
+    The set of integer numbers. Z={...-2,-1,0,1,2...}
+    Z^+ = {1,2,3...}
+    Z^- = {...-3,-2,-1}
+    You should use z^+ and z^- where possible as they are faster to process.
+    "
+]
+
+Term [Q / Rational numbers]
+Tags [maths/set theory/number]
+Definition(s)[
+    "
+    The set of rational numbers. Q = {x : x = a/b, a ∈ Z, b ∈ N}
+    "
+]
+
+Term [R / Real numbers]
+Tags [maths/set theory/number]
+
+Term [C / Complex numbers]
+Tags [maths/set theory/number]
+
+
+
+
