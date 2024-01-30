@@ -1,4 +1,12 @@
-
+██╗    ██╗███████╗██╗      ██████╗ ██████╗ ███╗   ███╗███████╗
+██║    ██║██╔════╝██║     ██╔════╝██╔═══██╗████╗ ████║██╔════╝
+██║ █╗ ██║█████╗  ██║     ██║     ██║   ██║██╔████╔██║█████╗  
+██║███╗██║██╔══╝  ██║     ██║     ██║   ██║██║╚██╔╝██║██╔══╝  
+╚███╔███╔╝███████╗███████╗╚██████╗╚██████╔╝██║ ╚═╝ ██║███████╗
+ ╚══╝╚══╝ ╚══════╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝
+ -------------------------------------------------------------
+ Credit 4 title> https://www.asciiart.eu/text-to-ascii-art
+ -------------------------------------------------------------
  Requirements
  | 1. Page to add words and their definitions, preferably in markdown. This saves them to some sort of DATABASE, which can then be searched.
  | 2. Tag/folder system; allows you to group words by their topic or use
@@ -39,6 +47,9 @@ Planning
     Tags - array of strings
     Definitions - array of definitions; each definition is raw html?
     Author - varchar 255 lim
+
+    tID int incrementing
+    Term
 
     When making a new term, it could have the same 'Term'/primary key, in which the definition and tags get added onto it. Or maybe names should be duplicated
 
